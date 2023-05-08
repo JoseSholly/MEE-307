@@ -1,0 +1,41 @@
+Reynold,Coefficient,Fluid,Pressure,Head Loss,Flow Type,Pipe Length,Fluid
+198,26989.11,Acetone,-40,0.05,Laminar,0.2,Acetone
+791.98,40903.3,Acetone,-40,0.51,Laminar,0.4,Acetone
+1781.96,52169.07,Acetone,-40,0.51,Laminar,0.6,Acetone
+3167.92,61997.8,Acetone,-26.79,0.34,Transistional ,0.8,Acetone
+4949.88,70879.77,Acetone,-47.93,0.61,Turbulent ,1,Acetone
+7127.83,79073.52,Acetone,-69.03,0.88,Turbulent ,1.2,Acetone
+9701.77,86735.95,Acetone,-93.96,1.19,Turbulent ,1.4,Acetone
+12671.7,93971.1,Acetone,-122.72,1.56,Turbulent ,1.6,Acetone
+16037.62,100852.3,Acetone,-155.31,1.97,Turbulent ,1.8,Acetone
+19799.53,107433.64,Acetone,-191.75,2.44,Turbulent ,2,Acetone
+357.75,25734.21,Propane,-13.92,0.28,Laminar,0.2,Propane
+1431,39005.76,Propane,-13.92,0.28,Laminar,0.4,Propane
+3219.75,49748.9,Propane,-9.68,0.2,Transistional ,0.6,Propane
+5724,59121.68,Propane,-19.3,0.39,Turbulent ,0.8,Propane
+8943.75,67591.61,Propane,-30.15,0.61,Turbulent ,1,Propane
+12879,75405.24,Propane,-43.38,0.88,Turbulent ,1.2,Propane
+17529.75,82712.2,Propane,-59.1,1.19,Turbulent ,1.4,Propane
+22896,89611.71,Propane,-77.19,1.56,Turbulent ,1.6,Propane
+28997.75,96173.69,Propane,-97.69,1.97,Turbulent ,1.8,Propane
+35775,102449.72,Propane,-120.6,2.44,Turbulent ,2,Propane
+115.49,17110.34,Benzene,-76.33,0.87,Laminar,0.2,Benzene
+461.97,25934.43,Benzene,-76.33,0.87,Laminar,0.4,Benzene
+1039.43,33077.41,Benzene,-76.33,0.87,Laminar,0.6,Benzene
+1847.88,39309.24,Benzene,-76.33,0.87,Laminar,0.8,Benzene
+2887.31,44940.79,Benzene,-40.21,0.46,Transistional ,1,Benzene
+4157.73,50135.97,Benzene,-76.6,0.87,Turbulent ,1.2,Benzene
+5659.13,54994.28,Benzene,-104.58,1.19,Turbulent ,1.4,Benzene
+7391.52,59581.67,Benzene,-136.59,1.56,Turbulent ,1.6,Benzene
+9354.9,63944.65,Benzene,-172.88,1.97,Turbulent ,1.8,Benzene
+11549.25,68117.5,Benzene,-213.43,2.44,Turbulent ,2,Benzene
+62.57,15640.82,Alcohol,-126.58,1.61,Laminar,0.2,Alcohol
+250.27,23707.05,Alcohol,-126.58,1.61,Laminar,0.4,Alcohol
+563.09,30236.55,Alcohol,-126.58,1.61,Laminar,0.6,Alcohol
+1001.06,35933.16,Alcohol,-126.58,1.61,Laminar,0.8,Alcohol
+1564.16,41081.04,Alcohol,-126.58,1.61,Laminar,1,Alcohol
+2252.39,45830.04,Alcohol,-33.77,0.43,Transistional ,1.2,Alcohol
+3065.76,50271.09,Alcohol,-78.29,0.99,Transistional ,1.4,Alcohol
+4004.26,54464.49,Alcohol,-122.03,1.55,Turbulent ,1.6,Alcohol
+5067.89,58452.75,Alcohol,-155.29,1.97,Turbulent ,1.8,Alcohol
+6256.65,62267.22,Alcohol,-191.74,2.44,Turbulent ,2,Alcohol
