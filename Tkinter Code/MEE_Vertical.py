@@ -10,11 +10,7 @@ def check():
     '''
     ACCELERATION_DUE_GRAVITY = 9.8;
     
-    if  len(density_entry.get())>=1 and len(PD_entry.get())>=1 and len(flow_velocity.get())>=1 and len(dynamic_vis.get())>=1:
-        #print(density_var.get(),dv_var.get(), fv_var.get(), pd_var.get() )
-    
-         
-
+    if  len(density_entry.get())>=1 and len(PD_entry.get())>=1 and len(flow_velocity.get())>=1 and len(dynamic_vis.get())>=1
         try:
             density = float(density_var.get()) 
             D = float(pd_var.get()) 
@@ -31,9 +27,6 @@ def check():
                 pipe_roughness['state']='active' ## Actives Pipe Roughness textbox if flow is Turbulent flow
         except:
             pass
-        
-            
-
     root.after(1000, check)
 
 def solve():
@@ -43,10 +36,7 @@ def solve():
     D = float(PD_entry.get()) 
     V = float(flow_velocity.get()) 
     dynamic_viscosity = float(dynamic_vis.get()) 
-
-
     reynold_number = (density * D * V ) / dynamic_viscosity
-    
     friction_factor=0
     if (reynold_number < 2000):
 
@@ -109,9 +99,7 @@ def clear():
     density_entry.delete(0, 'end'),PD_entry.delete(0, 'end'),flow_velocity.delete(0, 'end');
     pipe_length.delete(0, 'end'),dynamic_vis.delete(0, 'end'),conductivity.delete(0, 'end');
     shcf.delete(0, 'end'),pipe_roughness.delete(0, 'end');
-    
-
-    
+  
     
 def main_body():
     global root
@@ -203,12 +191,8 @@ def main_body():
 
     l4= ttk.Label(root, text='Flow Type: ', style= 'label.TLabel').grid(column=0, row=14, sticky=tk.W)
     
-
-    
     check()
-    
     root.mainloop()
-
-
+    
 if __name__=="__main__":
     main_body()
